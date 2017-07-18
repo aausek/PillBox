@@ -70,7 +70,7 @@
                 </div>
             </div>
         </nav>
-
+        @include('pages.messages')
         @yield('content')
     </div>
 

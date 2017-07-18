@@ -15,6 +15,11 @@ class CreateScriptsTable extends Migration
     {
         Schema::create('scripts', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('name');
+            $table->string('doctor');
+            $table->string('quantity');
+            $table->string('sig');
+            $table->string('date');
             $table->timestamps();
         });
     }

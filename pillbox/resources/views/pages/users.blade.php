@@ -2,6 +2,10 @@
 
 @section('content')
 <div class="container">
-    <p>{{$user}}</p>
+    @if (Auth::check())
+    	<p>{{$email}}</p>
+    @else
+    	<p>Please log in</p>
+	@endif
 </div>
 @endsection

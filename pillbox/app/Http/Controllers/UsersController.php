@@ -3,11 +3,13 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Auth;
 
 class UsersController extends Controller
 {
     public function users(){
-    	$user = 'User List';
-    	return view('pages.users')->with('user', $user);
+    	$email = Auth::user()->email;
+    	return view('pages.users')->with('email', $email);
+
     }
 }
