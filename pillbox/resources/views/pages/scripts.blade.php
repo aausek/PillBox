@@ -2,6 +2,9 @@
 
 @section('content')
 <div class="container">
+    @if (Auth::user()->admin)
+            <a href="/admin" class="btn btn-primary">Admin View</a>
+    @endif
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">

@@ -3,7 +3,7 @@
 @section('content')
 
 <div class="container">
-	<a href="{{ url('/newrxs') }}" class="btn btn-default">Recent Rxs</a>
+	<a href="{{ url('/newrxs') }}" class="btn btn-primary">Recent Rxs</a>
 	<h1>Admin View | Enter new prescription data</h1>
     {!! Form::open(['action' => 'AdminsController@store', 'method' => 'POST']) !!}
     	<div class="form-group">

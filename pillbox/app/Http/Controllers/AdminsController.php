@@ -15,8 +15,6 @@ class AdminsController extends Controller
      */
     public function index()
     {
-        //Return admin view
-        return view('pages.admin');
         
     
     }
@@ -67,9 +65,12 @@ class AdminsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show()
     {
-        //
+        // $newrxs = Admin::all();
+        // return view('pages.newrxs')->with('newrxs', $newrxs);
+        //  //Return admin view
+        // return view('pages.newrxs');
     }
 
     /**
