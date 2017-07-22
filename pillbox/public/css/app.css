@@ -1405,7 +1405,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 14px;
   line-height: 1.6;
-  color: #dad4d4;
+  color: #b20838;
   background-color: #b20838;
 }
 
@@ -3354,7 +3354,7 @@ output {
   color: #555555;
   background-color: #fff;
   background-image: none;
-  border: 1px solid white;
+  border: 1px solid #fa8cab;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
@@ -3373,16 +3373,16 @@ output {
 }
 
 .form-control::-moz-placeholder {
-  color: white;
+  color: #f85b87;
   opacity: 1;
 }
 
 .form-control:-ms-input-placeholder {
-  color: white;
+  color: #f85b87;
 }
 
 .form-control::-webkit-input-placeholder {
-  color: white;
+  color: #f85b87;
 }
 
 .form-control::-ms-expand {
@@ -3840,7 +3840,7 @@ select[multiple].input-lg,
   display: block;
   margin-top: 5px;
   margin-bottom: 10px;
-  color: white;
+  color: #f74376;
 }
 
 @media (min-width: 768px) {
@@ -3994,7 +3994,7 @@ select[multiple].input-lg,
 .btn:hover,
 .btn:focus,
 .btn.focus {
-  color: #dad4d4;
+  color: #b20838;
   text-decoration: none;
 }
 
@@ -4022,20 +4022,20 @@ fieldset[disabled] a.btn {
 }
 
 .btn-default {
-  color: #dad4d4;
+  color: #b20838;
   background-color: #fff;
   border-color: #ccc;
 }
 
 .btn-default:focus,
 .btn-default.focus {
-  color: #dad4d4;
+  color: #b20838;
   background-color: #e6e5e5;
   border-color: #8c8c8c;
 }
 
 .btn-default:hover {
-  color: #dad4d4;
+  color: #b20838;
   background-color: #e6e5e5;
   border-color: #adadad;
 }
@@ -4043,7 +4043,7 @@ fieldset[disabled] a.btn {
 .btn-default:active,
 .btn-default.active,
 .open > .btn-default.dropdown-toggle {
-  color: #dad4d4;
+  color: #b20838;
   background-color: #e6e5e5;
   border-color: #adadad;
 }
@@ -4057,7 +4057,7 @@ fieldset[disabled] a.btn {
 .open > .btn-default.dropdown-toggle:hover,
 .open > .btn-default.dropdown-toggle:focus,
 .open > .btn-default.dropdown-toggle.focus {
-  color: #dad4d4;
+  color: #b20838;
   background-color: #d4d4d4;
   border-color: #8c8c8c;
 }
@@ -4083,7 +4083,7 @@ fieldset[disabled] .btn-default.focus {
 
 .btn-default .badge {
   color: #fff;
-  background-color: #dad4d4;
+  background-color: #b20838;
 }
 
 .btn-primary {
@@ -4972,7 +4972,7 @@ tbody.collapse.in {
   color: #555555;
   text-align: center;
   background-color: #eeeeee;
-  border: 1px solid white;
+  border: 1px solid #fa8cab;
   border-radius: 4px;
 }
 
@@ -6332,7 +6332,7 @@ a.badge:focus {
 
 .thumbnail .caption {
   padding: 9px;
-  color: #dad4d4;
+  color: #b20838;
 }
 
 a.thumbnail:hover,
@@ -8348,5 +8348,40 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+}
+
+.dropdown-menu {
+  width: 50px;
+}
+
+.form {
+  width: 30%;
+}
+
+h1,
+h2,
+h3,
+.form-label {
+  color: #ffffff;
+}
+
+.thead {
+  font-size: 20px;
+}
+
+.table-bordered {
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+label {
+  color: #b20838;
+}
+
+.panel-default > .panel-heading {
+  color: #b20838;
 }
 

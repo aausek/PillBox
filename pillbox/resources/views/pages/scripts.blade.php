@@ -22,4 +22,5 @@
         </div>
     </div>
 </div>
+{{ asset('image/pills2.jpg') }}
 @endsection

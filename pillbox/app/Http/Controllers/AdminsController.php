@@ -8,6 +8,8 @@ use App\Admin;
 
 class AdminsController extends Controller
 {
+
+
     /**
      * Display a listing of the resource.
      *
@@ -15,8 +17,9 @@ class AdminsController extends Controller
      */
     public function index()
     {
+        $newrxs = Admin::all();
+            return view('pages.newrxs')->with('newrxs', $newrxs);
         
-    
     }
 
     /**
@@ -26,7 +29,8 @@ class AdminsController extends Controller
      */
     public function create()
     {
-        //
+        $names = \App\User::all();
+            return view('pages.admin', compact('names',$names));
     }
 
     /**
